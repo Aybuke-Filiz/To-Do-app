@@ -4,7 +4,7 @@ import { CiEdit } from "react-icons/ci";
 import { TodoType } from "../types/Types";
 import { removeTodoById, updateTodo } from "../redux/todoSlice";
 import { useDispatch } from "react-redux";
-import { useContext, useState } from "react";
+import {  useState } from "react";
 
 interface TodoProps{
   todoProps:TodoType
